@@ -1,0 +1,8 @@
+eureka server -
+gateway -
+authservice -
+customerservice -
+
+react - 3456
+
+

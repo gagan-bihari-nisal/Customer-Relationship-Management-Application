@@ -1,0 +1,5 @@
+1675761880899	Rename type 'CustomerDTO'
+1675762731566	Rename type 'DAOCustomer'
+1675763150761	Rename package 'com.crm.authservice.entity'
+1675763266701	Rename type 'CustomerRepository'
+1675847020633	Rename type 'CustomerRestController'

@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* { 
+  text-transform: capitalize;
+}
+
+.ProfileComponent .username{
+  text-transform: none;
+}
+
+.RegisterManagerComponent #username{
+  text-transform: none;
+}
+
+.LoginComponent #username {
+  text-transform: none;
+}
+
+
+* #email{
+  text-transform: lowercase;
+}
+
+
+.LoginComponent #errorMsg{
+  text-transform: none;
+}
+
+
+
+
+
+
+
+
+
+* .container-fluid{
+  margin:0px;
+  background: #a8edea;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: -webkit-linear-gradient(to right, rgba(168, 237, 234, 0.5), rgba(254, 214, 227, 0.5)); */
+  background:  -webkit-radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: linear-gradient(to right, rgba(168, 237, 234, 0.5), rgba(254, 214, 227, 0.5)) */
+  background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+}
+
+* .card{
+  background-color: #b0dcd9 !important;
+}
